@@ -1,0 +1,131 @@
+/* Universal Styles */
+:root {
+  font-size: 62.5%; /* 1 rem = 10px, 62.5% of 16px */
+  display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+.sidebar-nav {
+  flex-direction: column;
+  width: 30rem;
+  height: 100vh;
+  padding: 5rem;
+  font-size: medium;
+  background-color: #fafafa;
+  text-align: center;
+  position: relative;
+}
+
+#active {
+  background-color: #ececec;
+  width: 100%;
+}
+
+.sidebar-nav li {
+  margin: 1rem;
+  list-style-type: none;
+}
+.main {
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.heading-today {
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+}
+
+#add-task {
+  display: flex;
+  flex-direction: row;
+  margin: 5rem 0;
+  border: none;
+  background-color: #ffff;
+}
+
+#add-task:hover {
+  cursor: pointer;
+}
+
+.plus-task,
+.text-task {
+  padding-right: 2rem;
+}
+
+/* .plus-task {
+} */
+
+.today {
+  padding-right: 2rem;
+}
+
+#today-date {
+  color: green;
+}
+
+#task-area {
+  display: none;
+}
+
+#task {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+.pending-tasks {
+  margin-left: 5rem;
+  font-size: large;
+}
+
+.pending-tasks li {
+  list-style-type: none;
+  padding: 2rem;
+}
+.task-title,
+.task-description {
+  padding: 1rem;
+  margin: 1rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+.save {
+  width: 80%;
+  margin: 0 auto;
+}
+#free-play {
+  padding: 5rem;
+  text-align: center;
+}
+
+.free-play_img {
+  height: 20rem;
+}
+
+.free-play_text {
+  font-size: large;
+}
