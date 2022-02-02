@@ -58,12 +58,16 @@ body {
   display: flex;
   flex-direction: row;
   margin: 5rem 0;
-  border: none;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-color: bisque;
+  padding: 1rem;
   background-color: #ffff;
 }
 
 #add-task:hover {
   cursor: pointer;
+  background-color: #bbd4bb;
 }
 
 .plus-task,
